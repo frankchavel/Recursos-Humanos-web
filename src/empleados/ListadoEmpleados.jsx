@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function ListadoEmpleados() {
     //definir la url base del backend para consumir el servicio rest
-    const urlBase = "http://localhost:8080/api/empleado"
+    const urlBase = "https://backend-rrhh-spring.onrender.com/api/empleado"
 
     const [empleados, setEmpleados] = useState([]);
 
