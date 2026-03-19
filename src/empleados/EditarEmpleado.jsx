@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 
 export default function EditarEmpleado() {
-    const urlBase = "http://localhost:8080/api/empleado";
+    const urlBase = "https://backend-rrhh-spring.onrender.com/api/empleado";
     const {id} = useParams();
 
   const[empleado, setEmpleado] = useState({

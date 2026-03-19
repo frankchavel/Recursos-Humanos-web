@@ -20,7 +20,7 @@ export default function AgregarEmpleado() {
 
   const onSubmit = async (e) => {
     e.preventDefault()
-    const urlBase = "http://localhost:8080/api/empleado"
+    const urlBase = "https://backend-rrhh-spring.onrender.com/api/empleado"
     await axios.post(urlBase, empleado);
     //redireccionamiento a la pagina de inicio
     navegacion("/");
